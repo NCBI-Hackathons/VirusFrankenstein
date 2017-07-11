@@ -1,0 +1,5 @@
+seqformat: fasta
+nopaired: true
+bamfile:
+  class: File
+  path: SRR073726.viral.1.1.genomic.bam

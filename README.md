@@ -1,3 +1,3 @@
 # VirusFrankenstein
 
-![Schematic](/relative/path/to/img.jpg?raw=true "Schematic_v001")
+![Schematic](/blob/master/Virus_Frankenstein_schematic.tif?raw=true "Schematic_v001")

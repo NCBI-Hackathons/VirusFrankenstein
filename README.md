@@ -1,3 +1,3 @@
 # VirusFrankenstein
 
-![Schematic](/VirusFrankenstein/Virus_Frankenstein_schematic.tif"Schematic_v001")
+![Schematic](https://github.com/NCBIHackathons/VirusFrankenstein/blob/master/VirusFrankenstein_Workflow.png?raw=true"Schematic_v001")

@@ -5,7 +5,7 @@
 
 # Overview:
 
-A project that will make Virome Sniff read directly from SRA; i.e. given an input SRA dataset, Virus Frankenstein will output which viruses are likely to be in the SRA dataset. 
+A project that will make Virome Sniff read directly from SRA i.e. given an input SRA dataset, Virus Frankenstein will output which viruses are likely to be in the SRA dataset. 
 * Virome Sniff searches NGS reads using virus protein database, and finds known viral sequence and protein domains. 
 * Sidearm detects viral sequences in SRA datasets using MagicBLAST.
 

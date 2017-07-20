@@ -2,7 +2,7 @@
 # VirusFrankenstein
 
 ![Schematic](VirusFrankenstein_Workflow.png)
-
+=======
 # VIROME SNIFF
 
 A NCBI Hackathon Project Generating a Pipeline that searches Next Generation Sequencing reads using virus protein database. 

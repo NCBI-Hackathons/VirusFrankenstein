@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 # VirusFrankenstein
 
 ![Schematic](VirusFrankenstein_Workflow.png)

@@ -56,7 +56,7 @@ optional arguments:
 1. Building viral protein database
 1. Trimming sequences for adapter 
 2. Detecting NGS sequences for virus using MMseq2 k-mer based algorithm for protein detection
-2. Assemble matched reads using Abyss
+2. Assemble matched reads using Spades
 3. Characterize known sequences and their aboundaces
 4. Visuaize viral content, taxonomy and geographical origin 
 

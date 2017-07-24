@@ -25,7 +25,7 @@ A project that will make Virome Sniff read directly from SRA i.e. given an input
 
 `export BLASTDB=${BLASTDB}:${PWD}`
 
-2. MagicBLAST into the virus database created, and get the viral sequences. 
+2. MagicBLAST into the virus database created, and extract the viral sequences. 
 
 
 

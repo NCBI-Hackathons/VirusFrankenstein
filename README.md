@@ -26,6 +26,7 @@ A project that will make Virome Sniff read directly from SRA i.e. given an input
 ```export BLASTDB=${BLASTDB}:${PWD}```
 
 2. MagicBLAST into the virus database created, and extract the viral sequences. 
+```magicblast -db zikavirus -sra SRR5675890 -num_threads 8 -out zikavirus.mbo```
 
 3. Fastq-dump utility will convert SRA data to fastq and fasta format.
 

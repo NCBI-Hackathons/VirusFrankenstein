@@ -31,7 +31,7 @@ A project that will make Virome Sniff read directly from SRA i.e. given an input
 
 3. Fastq-dump utility will convert SRA data to fastq and fasta format.
 
-4. Trim_Galore will remove adapter sequences and low quality reads to fastq files.
+4. Trim_Galore performs quality and adapter trimming to fastq files.
 
 5. MMseq (Virome Sniff) will match the input sequences at an amino acid level to a viral protein database, sequences showing no similarity to viral proteins will be filtered out resulting in a reduced set of viral-like sequences.
 

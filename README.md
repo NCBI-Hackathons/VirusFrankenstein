@@ -13,7 +13,7 @@ A project that will make Virome Sniff read directly from SRA i.e. given an input
 
 ## Usage:
 
-1. The following commands will download the Zika virus genome and uncompress it. Using the Zika virus genome, a Zika Virus BLAST database will be created with makeblastdb. Then the local directory will be added to the BLASTDB environmental variable.
+1. Download virus genomes and create BLAST database with makeblastdb. 
 
 * This example uses an RNA-seq dataset (SRR5675890) from a Zika virus outbreak. After cloning this repository, do the following:
 
@@ -29,17 +29,19 @@ A project that will make Virome Sniff read directly from SRA i.e. given an input
 
 ```magicblast -db zikavirus -sra SRR5675890 -num_threads 8 -out zikavirus.mbo```
 
-3. Fastq-dump utility will convert SRA data to fastq and fasta format.
+*3. Fastq-dump utility will convert SRA data to fastq and fasta format.*
 
-```fastq-dump --outdir ${PWD} --skip-technical  --readids --read-filter pass --dumpbase --split-spot --clip $1```
+*```fastq-dump --outdir ${PWD} --skip-technical  --readids --read-filter pass --dumpbase --split-spot --clip $1```*
 
-4. Trim_Galore performs quality and adapter trimming to fastq files. (For trim_galore to work, install cutadapt and FastQC)
+*4. Trim_Galore performs quality and adapter trimming to fastq files. (For trim_galore to work, install cutadapt and FastQC)*
 
-```trim_galore -q 30 --length 20 $1_pass.fastq```
+*```trim_galore -q 30 --length 20 $1_pass.fastq```*
 
-5. MMseq (Virome Sniff) will match the input sequences at an amino acid level to a viral protein database, sequences showing no similarity to viral proteins will be filtered out resulting in a reduced set of viral-like sequences.
+5. MMseq (Virome Sniff) matches the input sequences at an amino acid level to a viral protein database, sequences showing no similarity to viral proteins will be filtered out resulting in a reduced set of viral-like sequences.
 
-6. Run virome sniff without magicBLAST.
+6.  Spades is used to generate contigs
+
+7.  Contigs are run against protein domains using RPStBLASTn.  
 
 
 
